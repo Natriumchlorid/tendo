@@ -1,0 +1,32 @@
+{
+    "ArenaPro": {
+        "file": {
+            "typescript": {
+                "server": {
+                    "entry": "src/App.ts",
+                    "development": true
+                },
+                "client": {
+                    "entry": "src/clientApp.ts",
+                    "development": true
+                },
+                "developmentAll": null,
+                "jsUpdate": true
+            }
+        },
+        "map": {
+            "id": "100324847",
+            "editHash": "3523be6ef64c09e026ae",
+            "playHash": "029e8bbd0e166e3f7d72"
+        },
+        "outputAndUpdate": [
+            "bundle.js",
+            {
+                "name": "bundle2.js",
+                "serverEntry": "src/App.ts",
+                "clientEntry": "src/clientApp.ts",
+                "description": "第二个代码模块示例，可更改。"
+            }
+        ]
+    }
+}
